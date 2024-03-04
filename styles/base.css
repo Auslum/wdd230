@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #6F1B60;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 20px;
+    padding: 1rem;
+}
+
+img {
+    box-shadow: 1px 1px 10px black;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+nav {
+    background-color: #000000;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: 1px solid #fff;
+}
+
+main {
+    margin: 1rem 4vw;
+}
+
+footer {
+    background-color: #6F1B60;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.name {
+    font-size: 25px;
+    padding: 2rem;
+}
+
+.parent section {
+    border: 1px solid #6F1B60;
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.parent h2 {
+    background-color: #6F1B60;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: .75rem 0;
+}
+
+.parent p {
+    padding: 10px;
+}
+
+.card1 ul {
+    list-style-type: none;
+    padding: 1rem 0 1rem 1rem;
+}
+
+.card1 li {
+    margin-bottom: 0.5rem;
+}
+
+.card1 a {
+    text-decoration: none;
+}
+
+.card2 {
+    text-align: center;
+}
+
