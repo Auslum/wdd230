@@ -46,7 +46,7 @@ footer {
 }
 
 section {
-    border: 1px solid #264264;
+    border: 1px solid #383838;
     border-radius: 5px;
     overflow: hidden;
     margin: 1rem 0;
@@ -97,6 +97,7 @@ img {
 
 .typography {
     text-align: center;
+    color: #383838;
 }
 
 .color1 {
