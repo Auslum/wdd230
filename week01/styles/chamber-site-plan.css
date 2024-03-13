@@ -5,16 +5,17 @@
 }
 
 h1 {
-    font-family: "Rammetto One", sans-serif;
-    font-size: 20px;
+    font-family: "Rock Salt", cursive;
+    font-size: 30px;
     font-weight: 400;
     font-style: normal;
+    
 }
 
 h2 {
-    font-family: "Londrina Outline", sans-serif;
-    font-size: 20px;
-    font-weight: 600;
+    font-family: "Caveat", cursive;
+    font-size: 35px;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -84,8 +85,8 @@ img {
 }
 
 .bodyChamber {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
     font-style: normal;
     padding-top: 2.5rem;
 }
