@@ -23,6 +23,7 @@ body {
     font-family: "Quantico", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: #383838;
 }
 
 header {
@@ -58,6 +59,10 @@ div p {
 
 img {
     padding: 1rem;
+}
+
+footer {
+    color: #FFFFFF
 }
 
 .h2Site {
