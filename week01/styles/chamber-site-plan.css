@@ -23,7 +23,7 @@ body {
     font-family: "Quantico", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #383838;
+    color: #000000;
 }
 
 header {
@@ -102,7 +102,7 @@ footer {
 
 .typography {
     text-align: center;
-    color: #383838;
+    color: #000000;
 }
 
 .color1 {
@@ -121,6 +121,11 @@ footer {
 .color4 {
     background-color: #871459;
     color: #ffffff;
+}
+
+.color5 {
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 .wireframe {
