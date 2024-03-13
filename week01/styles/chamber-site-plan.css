@@ -14,7 +14,7 @@ h1 {
 h2 {
     font-family: "Londrina Outline", sans-serif;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
 }
 
@@ -25,8 +25,8 @@ body {
 }
 
 header {
-    background-color: #264264;
-    color: #ffffff;
+    background-color: #383838;
+    color: #E1BC4F;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,8 +38,8 @@ main {
 }
 
 footer {
-    background-color: #264264;
-    color: #ffffff;
+    background-color: #383838;
+    color: #E1BC4F;
     text-align: center;
     padding: 10px;
 }
@@ -60,8 +60,8 @@ img {
 }
 
 .h2Site {
-    background-color: #264264;
-    color: #ffffff;
+    background-color: #383838;
+    color: #E1BC4F;
     display: block;
     text-align: center;
     padding: .75rem 0;
