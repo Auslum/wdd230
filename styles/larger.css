@@ -3,8 +3,16 @@
         font-size: 30px;
     }
 
+    #menu {
+        display: none;
+    }
+
     nav {
         max-width: 100%;
+    }
+
+    nav a{
+        display: block;
     }
 
     nav ul {
