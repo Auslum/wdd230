@@ -11,6 +11,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    position: relative;
 }
 
 h1, h2 {
@@ -24,7 +25,7 @@ h1 {
     padding: 1rem;
 }
 
-img {
+#profile {
     box-shadow: 1px 1px 10px black;
 }
 
@@ -137,5 +138,27 @@ footer {
 
 .card2 p{
     padding-top: 1.5rem;
+}
+
+#darkBtn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 24px;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #2A2A2A;
+	color: #ffffff;
+}
+
+.dark-mode section {
+    background-color: #2A2A2A;
+    box-shadow: 1px 1px 10px #FFFFFF;
+}
+
+.dark-mode a {
+    color: #ffffff;
 }
 

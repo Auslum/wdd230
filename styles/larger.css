@@ -3,6 +3,10 @@
         font-size: 30px;
     }
 
+    #darkBtn {
+        width: 36px;
+    }
+
     #menu {
         display: none;
     }
@@ -34,5 +38,9 @@
 
     .parent section {
         box-shadow: 1px 1px 10px black;
+    }
+
+    .dark-mode section {
+        box-shadow: 1px 1px 10px #FFFFFF;
     }
 }
