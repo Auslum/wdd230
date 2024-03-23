@@ -57,7 +57,7 @@ nav a {
 }
 
 nav a:hover {
-    border: 1px solid #000;
+    border: 2px solid #000;
 }
 
 main {
@@ -75,3 +75,23 @@ footer {
     margin: 2rem;
 }
 
+.event, .weather, .spot1, .spot2 {
+    border: 1px solid #383838;
+    margin: 2rem 0;
+}
+
+section {
+    box-shadow: 1px 1px 10px #000000;
+}
+
+section h2 {
+   background-color: #383838;
+   color: #E1BC4F; 
+   display: block;
+   text-align: center;
+   padding: 0.5rem 0;
+}
+
+section p {
+    padding: 10px;
+}

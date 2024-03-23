@@ -1,10 +1,22 @@
 @media only screen and (min-width: 600px) {
-    nav {
-        max-width: 100%;
+    h1{
+        font-size: 35px;
     }
 
-    nav a{
-        display: block;
+    h2 {
+        font-size: 35px;
+    }
+
+    #logo {
+        width: 60px;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
+    nav {
+        max-width: 100%;
     }
 
     nav ul {
@@ -13,5 +25,15 @@
 
     nav ul li {
         flex: 1 1 100%;
+    }
+
+    .divTwo, .divThree {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3%;
+    }
+
+    .event, .weather, .spot1, .spot2, .spot3 {
+        margin: 2.5rem 0;
     }
 }
