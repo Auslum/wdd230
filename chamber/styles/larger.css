@@ -15,8 +15,16 @@
         font-size: 18px;
     }
 
+    #menu {
+        display: none;
+    }
+
     nav {
         max-width: 100%;
+    }
+
+    nav a{
+        display: block;
     }
 
     nav ul {
@@ -25,6 +33,10 @@
 
     nav ul li {
         flex: 1 1 100%;
+    }
+
+    .hero {
+        margin-top: 0;
     }
 
     .hero img {
