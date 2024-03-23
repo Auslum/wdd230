@@ -106,12 +106,16 @@ footer {
     text-align: center;
 }
 
+.hero p {
+    padding: 10px;
+}
+
 .event, .weather, .spot1, .spot2 {
     border: 1px solid #383838;
     margin: 2rem 0;
 }
 
-section {
+section, .hero {
     box-shadow: 1px 1px 10px #000000;
 }
 
