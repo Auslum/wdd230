@@ -13,3 +13,65 @@ header {
     padding: 20px;
     position: relative;
 }
+
+h1 {
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+h2 {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    background-color: #E1BC4F;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: 1px solid #000;
+}
+
+main {
+    margin: 1rem 4vw;
+}
+
+footer {
+    background-color: #383838;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+#logo {
+    margin: 2rem;
+}
+
