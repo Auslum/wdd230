@@ -75,6 +75,10 @@ footer {
     margin: 2rem;
 }
 
+.hero {
+    text-align: center;
+}
+
 .event, .weather, .spot1, .spot2 {
     border: 1px solid #383838;
     margin: 2rem 0;

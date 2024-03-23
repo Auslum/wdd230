@@ -27,6 +27,19 @@
         flex: 1 1 100%;
     }
 
+    .hero img {
+        width: 100%;
+        max-width: 800px;
+    }
+
+    /* 
+    .divOne {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    */
+
     .divTwo, .divThree {
         display: grid;
         grid-template-columns: 1fr 1fr;
