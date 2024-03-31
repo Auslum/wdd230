@@ -130,3 +130,18 @@ section h2 {
 section p {
     padding: 10px;
 }
+
+.side1 {
+    margin: 2.5rem 0;
+    text-align: center;
+}
+
+.side1 section {
+    margin: 1.5rem 0;
+}
+
+.side2 img {
+    width: 100%;
+    height: auto;
+    margin: 0.5rem 0;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulises Rivero - Chamber of commerce</title>
+    <meta 
+        name="description"
+        content="WDD 230 - Web Frontend Development - Ulises Rivero - Chamber of commerce website">
+    <meta name="author" content="Ulises Rivero">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/chamber-favicon.ico">
+    <meta property="og:title" content="Sauces City Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://lluviadigital.com/wp-content/uploads/2023/09/ecommerce.webp">
+    <meta property="og:url" content="https://auslum.github.io/wdd230/chamber/index.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Quantico&family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/chamber-logo.png" alt="Sauces City Chamber logo" width="50" id="logo">
+        <h1>Sauces City Chamber of Commerce</h1>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#"><strong>Home</strong></a></li>
+            <li><a href="#"><strong>Discover</strong></a></li>
+            <li><a href="#"><strong>Directory</strong></a></li>
+            <li><a href="#"><strong>Join</strong></a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="side1">
+            <section>
+                <h2>Demographics</h2>
+                <p>Toluca, Mexico</p>
+                <p>Population: 329,508</p>
+            </section>
+            <section>
+                <h2>Events</h2>
+                <p>Spring Festival</p>
+                <p>Years Of History Expo</p>
+            </section>
+            <section>
+                <h2>Attractions</h2>
+                <p>The Chorizo Tour</p>
+                <p>The Soda Museum</p>
+            </section>
+        </div>
+        <div class="side2">
+            <picture>
+                <source srcset="images/9Argentino-small.webp" media="(max-width: 600px)">
+                <source srcset="images/9Argentino-medium.webp" media="(max-width: 1000px)">
+                <img src="images/9Argentino-large.webp" alt="Image of a restaurant in Toluca" width="1000" height="700">
+            </picture>
+            <picture>
+                <source srcset="images/cosmoVitral-small.webp" media="(max-width: 600px)">
+                <source srcset="images/cosmoVitral-medium.webp" media="(max-width: 1000px)">
+                <img src="images/cosmoVitral-large.webp" alt="Image of Cosmovitral in Toluca" width="1000" height="700">
+            </picture>
+            <picture>
+                <source srcset="images/estadioToluca-small.webp" media="(max-width: 600px)">
+                <source srcset="images/estadioToluca-medium.webp" media="(max-width: 1000px)">
+                <img src="images/estadioToluca-large.webp" alt="Image of Toluca Football Club stadium" width="1000" height="700">
+            </picture>
+            <picture>
+                <source srcset="images/femexFut-small.webp" media="(max-width: 600px)">
+                <source srcset="images/femexFut-medium.webp" media="(max-width: 1000px)">
+                <img src="images/femexFut-large.webp" alt="Image of Mexican Soccer Federation" width="1000" height="700">
+            </picture>
+            <picture>
+                <source srcset="images/museoToluca-small.webp" media="(max-width: 600px)">
+                <source srcset="images/museoToluca-medium.webp" media="(max-width: 1000px)">
+                <img src="images/museoToluca-large.webp" alt="Image of a museum in Toluca" width="1000" height="700">
+            </picture>
+            <picture>
+                <source srcset="images/tolucaCentro-small.webp" media="(max-width: 600px)">
+                <source srcset="images/tolucaCentro-medium.webp" media="(max-width: 1000px)">
+                <img src="images/tolucaCentro-large.webp" alt="Image of downtown in Toluca" width="1000" height="700">
+            </picture>
+        </div>
+    </main>
+    <footer>
+        <p> &copy; <span id="currentYear"></span> - Ulises A. Rivero - WDD 230</p>
+        <p id="lastModified">Last modification: <span id="lastUpdate"></span></p>
+    </footer>
+    <script src="scripts/chamber-script.js"></script>
+</body>
+</html>

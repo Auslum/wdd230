@@ -4,7 +4,7 @@
     }
 
     h2 {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     #logo {
@@ -44,6 +44,12 @@
         max-width: 800px;
     }
 
+    main {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        column-gap: 35px;
+    }
+
     /* 
     .divOne {
         max-width: 800px;
@@ -60,5 +66,18 @@
 
     .event, .weather, .spot1, .spot2, .spot3 {
         margin: 2.5rem 0;
+    }
+
+    .side1 {
+        margin: 0;
+    }
+
+    .side2 {
+        margin: 1rem 0;
+    }
+
+    .side2 img {
+        width: 100%;
+        height: auto;
     }
 }
