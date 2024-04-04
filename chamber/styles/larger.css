@@ -80,4 +80,8 @@
         width: 100%;
         height: auto;
     }
+
+    img:hover {
+        box-shadow: 1px 1px 20px #871459;
+    }
 }
