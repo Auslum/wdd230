@@ -1,0 +1,38 @@
+table {
+    margin: 20px auto;
+    border: thin solid #D6D6D6;
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    font-size: .85rem;
+}
+
+th, td {
+	padding: 7px 15px;
+    text-align: center;
+}
+
+td {
+    border: thin solid #D6D6D6;
+}
+
+.colHead {
+    background-color: #393939;
+    color: #FFFFFF;
+}
+
+.rowHead {
+    font-size: larger;
+}
+
+.topTitle {
+    background-color: #000000;
+    color: #FFFFFF
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #EBEBEB;
+}
