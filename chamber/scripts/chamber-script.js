@@ -23,7 +23,10 @@ const daysOfDifference = (today - ultimaVisita) / msInADay;
 
 // Initialize display element
 const latestDateElement = document.querySelector(".latestDate");
-displayMessage();
+if (latestDateElement != null) {
+	displayMessage();
+}
+
 
 // The function that will display the message depending on the last day visited
 function displayMessage() {
