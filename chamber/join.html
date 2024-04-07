@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulises Rivero - Chamber of commerce</title>
+    <meta 
+        name="description"
+        content="WDD 230 - Web Frontend Development - Ulises Rivero - Chamber of commerce website">
+    <meta name="author" content="Ulises Rivero">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/chamber-favicon.ico">
+    <meta property="og:title" content="Sauces City Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://lluviadigital.com/wp-content/uploads/2023/09/ecommerce.webp">
+    <meta property="og:url" content="https://auslum.github.io/wdd230/chamber/index.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Quantico&family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/chamber-logo.png" alt="Sauces City Chamber logo" width="50" id="logo">
+        <h1>Sauces City Chamber of Commerce</h1>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html"><strong>Home</strong></a></li>
+            <li><a href="discover.html"><strong>Discover</strong></a></li>
+            <li><a href="#"><strong>Directory</strong></a></li>
+            <li><a href="join.html"><strong>Join</strong></a></li>
+        </ul>
+    </nav>
+    <main class="joinPage">
+        
+        <form method="get" action="thankyou.html" class="form1">
+            <h2 class="formTitle"><strong>Membership Application</strong></h2> 
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>First Name* <input type="text" name="firstName" id="fName" required></label>
+                <label>Last Name* <input type="text" name="lastName" id="lName" required></label>
+                <!-- The pattern attribute is to use a regular expresion to to only accept alpha characters (a-zA-Z), 
+                hyphens (-), and spaces (\s) with a minimum of seven characters (minlength="7")-->
+                <label>Title/Position In Organization (7 characters minimum) <input type="text" name="orgTitle" id="oTitle" pattern="[a-zA-Z-\s]" minlength="7"></label>
+                <label>Email Address* <input type="email" name="emailAdd" id="emailAddr" placeholder="myaddress@mail.com" required></label> 
+                <label>Mobile Phone Number <input type="tel" name="mobPhone" id="mobPhonNum" placeholder="1112223333" required></label>     
+            </fieldset>
+            <fieldset>
+                <legend>Business/Organization Information</legend>
+                <label>Organization's Name* <input type="text" name="orgName" id="orgaName" required></label>
+                <label>Organization's Description <textarea name="orgDes" id="orgDesc" cols="40" rows="5"></textarea></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership</legend>
+                <div>Membership Level* </div>
+                <label><input type="radio" name="memberLvl" value="NP"> NP (Non Profit)</label>
+                <label><input type="radio" name="memberLvl" value="Bronze"> Bronze</label>
+                <label><input type="radio" name="memberLvl" value="Silver"> Silver</label>
+                <label><input type="radio" name="memberLvl" value="Gold"> Gold</label>
+                <!--This field contains the current date and time that the form was loaded by the user.-->
+                <label><input type="hidden" name="timestamp" id="timeStamp"></label>
+            </fieldset>
+            <input type="submit" value="Apply for my membership">
+        </form>
+        <div class="memberships">
+            <section>
+                <h2>NP Membership</h2>
+                <p>Free Training</p>
+                <p>Advertisement on the page</p>
+                <p class="cost">$10 / month</p>
+            </section>
+            <section>
+                <h2>Bronze Membership</h2>
+                <p>Free Training</p>
+                <p>Advertisement on the home page</p>
+                <p>Spotlight positions</p>
+                <p>1 Special Event per month</p>
+                <p class="cost">$15 / month</p>
+            </section>
+            <section>
+                <h2>Silver Membership</h2>
+                <p>Free Training</p>
+                <p>Advertisement on the home page</p>
+                <p>Spotlight positions</p>
+                <p>50% discount in special events</p>
+                <p>2 Special Events per month</p>
+                <p class="cost">$20 / month</p>
+            </section>
+            <section>
+                <h2>Gold Membership</h2>
+                <p>Free Training</p>
+                <p>Advertisement on the home page</p>
+                <p>Spotlight positions</p>
+                <p>Free special events</p>
+                <p>3 Special Events per month</p>
+                <p class="cost">$25 / month</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p> &copy; <span id="currentYear"></span> - Ulises A. Rivero - WDD 230</p>
+        <p id="lastModified">Last modification: <span id="lastUpdate"></span></p>
+    </footer>
+    <script src="scripts/chamber-script.js"></script>
+</body>
+</html>

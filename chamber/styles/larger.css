@@ -83,4 +83,15 @@
     .side2 img:hover {
         box-shadow: 1px 1px 20px #871459;
     }
+
+    /* The adjustments for the Join Page */
+    .joinPage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
+    }
+
+    .memberships {
+        margin-top: 30px;
+    }
 }

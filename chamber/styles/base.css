@@ -145,3 +145,113 @@ section p {
     height: auto;
     margin: 0.5rem 0;
 }
+
+/*----------- FORM STYLING --------------*/
+
+.form1 fieldset {
+    margin: 2rem 0;
+    border: 1px solid #383838;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+.form1 legend {
+    border: 1px solid #383838;
+    border-radius: 5px;
+    background-color:#383838;
+    color: #FFF;
+    padding: 0 .5rem;
+}
+
+.form1 label {
+    display: block;
+    padding-top: 1rem;
+    color: #871459;
+    font-size: .9rem;
+}
+
+.form1 div {
+    padding-top: 1rem;
+    color: #000000;
+    font-size: .9rem;
+}
+
+.form1 input[type="text"],
+.form1 input[type="tel"],
+.form1 input[type="email"],
+.form1 textarea
+
+{
+    background-color: #eee;
+    display: block;
+    border: solid 1px #383838;
+    border-radius: 5px;
+    padding: .75rem;
+    color: #383838;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 1px 1px 4px #383838;
+    appearance: none;
+}
+
+.form1 input[type="radio"] {
+    margin-right: 6px;
+}
+
+.form1 input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#871459, #590D3B);
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: .8rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 1px 1px 4px #383838;
+}
+
+.form1 input:required {
+    border-left: solid 8px #871459;
+}
+
+.form1 input:required:valid {
+    border-left: solid 8px green;
+}
+
+#oTitle:invalid {
+    border-bottom: solid 8px #871459;
+}
+
+.formTitle {
+    color: #383838;
+}
+
+/* The adjustments for the Memberships */
+
+.memberships {
+    margin-top: 50px;
+}
+
+.memberships section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cost {
+    font-size: 30px;
+    color: #871459;
+}
+
+/* Thankyu Styling */
+
+.thankUPage {
+    text-align: center;
+}
+
+.thankUPage p {
+    margin-bottom: 2rem;
+}
+
+.thankTitle {
+    font-size: 45px;
+    margin: 2rem;
+}

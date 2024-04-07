@@ -42,7 +42,20 @@ function displayMessage() {
 	setDate();
 }
 
-// the setItem function
+// The setItem function
 function setDate() {
 	localStorage.setItem('latestVisit', today);
+}
+
+// Current date for the timestamp in the Join Us Form
+const timestamp = {timestamp: 'numeric'}
+
+
+if (document.getElementById('timeStamp') !== null) {
+	obtainTimestamp();
+}
+
+//The timestamp function
+function obtainTimestamp() {
+	document.getElementById('timeStamp').textContent = new Date().toLocaleString('en-US', timestamp);
 }
