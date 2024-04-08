@@ -1,0 +1,23 @@
+{
+    "familyName" : "Kenway",
+    "dateMoved" : "2024-03-12",
+    "peopleInFamily" : 3,
+    "visByBishopric" : true,
+    "famMembers" : [
+        {
+            "memberName" : "Edward",
+            "memberGender" : "M",
+            "memberBirthDate" : "1960-05-08"
+        },
+        {
+            "memberName" : "Haytham",
+            "memberGender" : "M",
+            "memberBirthDate" : "1985-10-25"
+        },
+        {
+            "memberName" : "Connor",
+            "memberGender" : "M",
+            "memberBirthDate" : "2010-06-17"
+        }
+    ]
+}
