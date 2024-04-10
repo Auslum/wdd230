@@ -35,7 +35,7 @@ async function buscarAPI() {
         const respuesta = await fetch(url);
         if (respuesta.ok) {
             const datos = await respuesta.json();
-            console.log(datos); //testing only
+            //console.log(datos); //testing only
             mostrarResultados(datos);
         } else {
             throw Error (await respuesta.text());

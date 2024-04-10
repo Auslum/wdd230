@@ -59,3 +59,20 @@ if (document.getElementById('timeStamp') !== null) {
 function obtainTimestamp() {
 	document.getElementById('timeStamp').textContent = new Date().toLocaleString('en-US', timestamp);
 }
+
+//The directory part
+const baseURL = "https://auslum.github.io/wdd230/";
+const linksURL = "https://auslum.github.io/wdd230/chamber/data/members.json";
+const div1 = document.querySelector("#directorio");
+
+async function getJson() {
+	const respuesta = await fetch(linksURL);
+	const datos = await  respuesta.json();
+	console.log(datos);
+	//displayDirectory(datos);
+}
+
+getJson();
+
+
+
