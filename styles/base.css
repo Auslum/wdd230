@@ -170,3 +170,13 @@ footer {
 .dark-mode #menu {
     color:#FFFFFF
 }
+
+.weatherAPI {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#weather-icon {
+    width: 50px;
+}
