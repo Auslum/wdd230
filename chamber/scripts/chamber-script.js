@@ -63,7 +63,7 @@ function obtainTimestamp() {
 //The directory part
 const baseURL = "https://auslum.github.io/wdd230/";
 const linksURL = "https://auslum.github.io/wdd230/chamber/data/members.json";
-const div1 = document.querySelector("#directorio");
+const art1 = document.querySelector(".grid");
 
 async function getJson() {
 	const respuesta = await fetch(linksURL);
@@ -82,25 +82,48 @@ const displayDirectory = (members) => {
 		let telefono = document.createElement('p');
 		let liga = document.createElement('a');
 		let nivel = document.createElement('p');
+		let seccion = document.createElement('section');
 		
 		logo.setAttribute('src', miembro.iconFile);
 		logo.setAttribute('alt', `${miembro.name} logo`);
 		logo.setAttribute('loading', 'lazy');
-		logo.setAttribute('width', '150');
-		logo.setAttribute('height', '150');
+		logo.setAttribute('width', '120');
+		logo.setAttribute('height', '120');
 
 		nombres.textContent = `${miembro.name}`;
 		direccion.textContent = `${miembro.address}`;
 		telefono.textContent = `${miembro.phoneNumber}`;
+		liga.textContent = `${miembro.url}`;
 		liga.setAttribute('href', miembro.url);
 		nivel.textContent = `${miembro.membershipLvl}`;
 		
-		div1.appendChild(logo);
-		div1.appendChild(nombres);
-		div1.appendChild(direccion);
-		div1.appendChild(telefono);
-		div1.appendChild(liga);
+		seccion.appendChild(logo);
+		seccion.appendChild(nombres);
+		seccion.appendChild(direccion);
+		seccion.appendChild(telefono);
+		seccion.appendChild(liga);
+		art1.appendChild(seccion);
 
 	})
 }
+
+//Code for grid and list views in directory
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("article");
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
+
 

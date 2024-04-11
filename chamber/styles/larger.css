@@ -94,4 +94,17 @@
     .memberships {
         margin-top: 30px;
     }
+
+    /* Directory styling */
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0;
+        padding: 0.25rem;
+    }
+
+    .list section > * {
+        margin: 0.5rem;
+    }
+    
 }

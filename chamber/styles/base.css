@@ -255,3 +255,93 @@ section p {
     font-size: 45px;
     margin: 2rem;
 }
+
+/*Dricetory styling*/
+
+.directoryMain {
+    margin: 0 auto;
+	padding: 0.5rem;
+	max-width: 700px;
+	background-color: #fff;
+}
+
+.directoryMain h3 {
+    font-size: 1.5rem;
+}
+
+.directoryMain p {
+	font-size: smaller;
+    padding: 0;
+}
+
+.directoryMain a {
+    font-size: 0.85rem;
+    font-weight: 600;
+	color: #000;
+	letter-spacing: 1.1pt;
+}
+
+.menuDir {
+    margin: 2rem auto;
+    border: 1px solid #383838;
+    padding: 0.5rem;        
+    background-color: #871459;
+    text-align: center;
+}
+
+.menuDir button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
+.directoryMain section {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 1rem 0;
+	background-color: #eee;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+}
+
+.grid section {
+	text-align: center;
+}
+
+.grid img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px #333;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.grid h3 {
+	font-size: 1rem;
+}
+
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+    font-size: 1rem;
+}
+
+.list section:nth-child(even) {
+	background-color: #E1BC4F;
+}
