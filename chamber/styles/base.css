@@ -345,3 +345,12 @@ section p {
 .list section:nth-child(even) {
 	background-color: #E1BC4F;
 }
+
+#joinUs {
+    border: none;
+    background-image: linear-gradient(#871459, #590D3B);
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: .8rem;
+    margin: 1rem
+}
