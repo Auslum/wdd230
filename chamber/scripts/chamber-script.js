@@ -129,6 +129,18 @@ if (document.querySelector('.directoryMain') !== null) {
 	}
 }
 
+//Join Us Button
+if (document.querySelector('#joinUs') !== null) {
+	let joinButton = document.getElementById("joinUs");
+	joinButton.onclick = transferir();
+
+
+	function transferir() {
+		window.location("https://auslum.github.io/wdd230/chamber/join.html");
+	}
+}
+
+
 
 
 
