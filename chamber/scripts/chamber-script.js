@@ -68,11 +68,39 @@ const div1 = document.querySelector("#directorio");
 async function getJson() {
 	const respuesta = await fetch(linksURL);
 	const datos = await  respuesta.json();
-	console.log(datos);
-	//displayDirectory(datos);
+	console.log(datos.members);
+	displayDirectory(datos.members);
 }
 
 getJson();
 
+const displayDirectory = (members) => {
+	members.forEach((miembro) => {
+		let logo = document.createElement('img');
+		let nombres = document.createElement('h3');
+		let direccion = document.createElement('p');
+		let telefono = document.createElement('p');
+		let liga = document.createElement('a');
+		let nivel = document.createElement('p');
+		
+		logo.setAttribute('src', miembro.iconFile);
+		logo.setAttribute('alt', `${miembro.name} logo`);
+		logo.setAttribute('loading', 'lazy');
+		logo.setAttribute('width', '150');
+		logo.setAttribute('height', '150');
 
+		nombres.textContent = `${miembro.name}`;
+		direccion.textContent = `${miembro.address}`;
+		telefono.textContent = `${miembro.phoneNumber}`;
+		liga.setAttribute('href', miembro.url);
+		nivel.textContent = `${miembro.membershipLvl}`;
+		
+		div1.appendChild(logo);
+		div1.appendChild(nombres);
+		div1.appendChild(direccion);
+		div1.appendChild(telefono);
+		div1.appendChild(liga);
+
+	})
+}
 
