@@ -18,20 +18,21 @@ const displayLinks = (weeks) => {
     weeks.forEach((semana) => {
         
         let weekLi = document.createElement('li');
-        //let weekA = document.createElement('a');
+        let weekAA = document.createElement('a');
 
         weekLi.textContent = `${semana.week} : `;
         //weekA.textContent = `${semana.links[0].title}`;
         //weekA.setAttribute("href", semana.links[0].url);
+        weekAA.innerHTML = `${semana.links.map (l => `<a href="${l.url}">${l.title}</a>`).join(" | ")}`;
 
-        weeks.forEach((semana) => {
+        /*weeks.forEach((semana) => {
             let weekAA = document.createElement('a');
-            weekAA.textContent = `${semana.links[0].title} | `;
-            weekAA.setAttribute("href", semana.links[0].url);
+            
+            //weekAA.setAttribute("href", semana.links[0].url);
             weekLi.appendChild(weekAA);
-        });
+        });*/
 
-        //weekLi.appendChild(weekA);
+        weekLi.appendChild(weekAA);
         weekUl.appendChild(weekLi);
         
     });
