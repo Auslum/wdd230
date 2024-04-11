@@ -5,7 +5,7 @@
             "address": "Amatista #42 col. Sauces",
             "phoneNumber": "1111111111",
             "url": "tacoslagloria.com",
-            "iconFile": "/chamber/images/tacosLaGloria.webp",
+            "iconFile": "https://auslum.github.io/wdd230/chamber/images/tacosLaGloria.webp",
             "membershipLvl": "np",
             "otherInfo": "2x1 pastor tacos"
         },
