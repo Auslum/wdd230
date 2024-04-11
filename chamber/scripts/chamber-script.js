@@ -136,8 +136,7 @@ if (document.querySelector('#joinUs') !== null) {
 
 
 	function transferir() {
-		window.location("https://auslum.github.io/wdd230/chamber/join.html");
-		window.location.href("https://auslum.github.io/wdd230/chamber/join.html");
+		window.open("https://auslum.github.io/wdd230/chamber/join.html");
 	}
 }
 
